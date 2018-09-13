@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      "@slite/quill-delta-markdown@0.0.8",
+      "/home/disyakidneyshot/projects/FrontendPanel"
+    ]
+  ],
+  "_from": "@slite/quill-delta-markdown@0.0.8",
+  "_id": "@slite/quill-delta-markdown@0.0.8",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@slite/quill-delta-markdown",
+  "_nodeVersion": "8.4.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/quill-delta-markdown-0.0.8.tgz_1506516930572_0.9762335431296378"
+  },
+  "_npmUser": {
+    "email": "pierre.renaudin.fr@gmail.com",
+    "name": "prenaudin"
+  },
+  "_npmVersion": "5.4.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "@slite/quill-delta-markdown",
+    "raw": "@slite/quill-delta-markdown@0.0.8",
+    "rawSpec": "0.0.8",
+    "scope": "@slite",
+    "spec": "0.0.8",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@slite/quill-delta-markdown/-/quill-delta-markdown-0.0.8.tgz",
+  "_shasum": "63422048dd70060f6ca8e07be696fdc146f673dc",
+  "_shrinkwrap": null,
+  "_spec": "@slite/quill-delta-markdown@0.0.8",
+  "_where": "/home/disyakidneyshot/projects/FrontendPanel",
+  "author": {
+    "name": "Slite Team"
+  },
+  "dependencies": {
+    "commonmark": "^0.26.0",
+    "lodash": "^4.16.4",
+    "quill-delta": "^3.4.0"
+  },
+  "description": "To and from Markdown and Quill delta",
+  "devDependencies": {
+    "eslint": "3.8.1",
+    "eslint-plugin-node": "2.1.3",
+    "jest": "^21.0.1",
+    "prettier": "^1.5.2"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-Vd/qmoiDfnIY2a3aaLotIneDSBA1VK3PNO6h3rhofsHweFDjuMC16XaLKN4YVPlRD9hLE3wb4vFzlSQ3kBVywA==",
+    "shasum": "63422048dd70060f6ca8e07be696fdc146f673dc",
+    "tarball": "https://registry.npmjs.org/@slite/quill-delta-markdown/-/quill-delta-markdown-0.0.8.tgz"
+  },
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "gitHead": "46f9eff29532b9611bb536e6fd32d98c1fd39634",
+  "keywords": [
+    "delta",
+    "markdown",
+    "quill"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "prenaudin",
+      "email": "pierre.renaudin.fr@gmail.com"
+    },
+    {
+      "name": "arnaudrinquin",
+      "email": "rinquin.arnaud@gmail.com"
+    }
+  ],
+  "name": "@slite/quill-delta-markdown",
+  "optionalDependencies": {},
+  "public": true,
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "pretty": "find ./**/*.js | xargs prettier --write --no-semi --print-width 80 --single-quote --trailing-comma es5",
+    "test": "jest",
+    "test:watch": "mocha \"tests/**/*.spec.js\" --reporter progress --watch"
+  },
+  "version": "0.0.8"
+}
