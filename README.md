@@ -1,20 +1,20 @@
 ## Installation
 
 ```
-npm install --save @slite/quill-mardown-delta
+npm install --save @disyakidneyshot/quill-markdown-delta
 ```
 
 ## Usage
 
 1 - Use it to convert your delta document to markdown
 ```javascript
-const { fromDelta } = require('@slite/quill-markdown-delta')
+const { fromDelta } = require('@disyakidneyshot/quill-markdown-delta')
 const markdown = fromDelta(deltaFromElseWhere)
 ```
 
 2 - Use it to convert your markdown document to delta ops
 ```javascript
-const { toDelta } = require('@slite/quill-markdown-delta')
+const { toDelta } = require('@disyakidneyshot/quill-markdown-delta')
 const deltaOps = toDelta(txtFromElseWhere)
 ```
 
