@@ -25,7 +25,7 @@
   ],
   "license": "ISC",
   "main": "index.js",
-  "name": "quill-delta-markdown",
+  "name": "delta-markdown-for-quill",
   "optionalDependencies": {},
   "public": true,
   "readme": "ERROR: No README data found!",
