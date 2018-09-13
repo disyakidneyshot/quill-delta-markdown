@@ -1,102 +1,111 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/node',
-1 verbose cli   '/usr/bin/npm',
-1 verbose cli   'install',
-1 verbose cli   '--save',
-1 verbose cli   '@disyakidneyshot/quill-markdown-delta' ]
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish' ]
 2 info using npm@3.5.2
 3 info using node@v8.10.0
-4 silly loadCurrentTree Starting
-5 silly install loadCurrentTree
-6 silly install readLocalPackageData
-7 silly fetchPackageMetaData @disyakidneyshot/quill-markdown-delta
-8 silly fetchNamedPackageData @disyakidneyshot/quill-markdown-delta
-9 silly mapToRegistry name @disyakidneyshot/quill-markdown-delta
-10 silly mapToRegistry scope (from package name) @disyakidneyshot
-11 verbose mapToRegistry no registry URL found in name for scope @disyakidneyshot
-12 silly mapToRegistry using default registry
-13 silly mapToRegistry registry https://registry.npmjs.org/
-14 silly mapToRegistry uri https://registry.npmjs.org/@disyakidneyshot%2fquill-markdown-delta
-15 verbose request uri https://registry.npmjs.org/@disyakidneyshot%2fquill-markdown-delta
-16 verbose request no auth needed
-17 info attempt registry request try #1 at 14:59:45
-18 verbose request id 1e24489c7d4326b3
-19 http request GET https://registry.npmjs.org/@disyakidneyshot%2fquill-markdown-delta
-20 http 404 https://registry.npmjs.org/@disyakidneyshot%2fquill-markdown-delta
-21 verbose headers { date: 'Thu, 13 Sep 2018 09:59:47 GMT',
-21 verbose headers   'content-type': 'application/json',
-21 verbose headers   'content-length': '21',
-21 verbose headers   connection: 'keep-alive',
-21 verbose headers   'set-cookie':
-21 verbose headers    [ '__cfduid=d83bd70cc0195c58d3cfe832bea13c2201536832785; expires=Fri, 13-Sep-19 09:59:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
-21 verbose headers   'cf-ray': '4599c34f084c8fc9-DME',
-21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
-21 verbose headers   vary: 'Accept-Encoding',
-21 verbose headers   server: 'cloudflare' }
-22 silly get cb [ 404,
-22 silly get   { date: 'Thu, 13 Sep 2018 09:59:47 GMT',
-22 silly get     'content-type': 'application/json',
-22 silly get     'content-length': '21',
-22 silly get     connection: 'keep-alive',
-22 silly get     'set-cookie':
-22 silly get      [ '__cfduid=d83bd70cc0195c58d3cfe832bea13c2201536832785; expires=Fri, 13-Sep-19 09:59:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
-22 silly get     'cf-ray': '4599c34f084c8fc9-DME',
-22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
-22 silly get     vary: 'Accept-Encoding',
-22 silly get     server: 'cloudflare' } ]
-23 silly fetchPackageMetaData Error: Not found : @disyakidneyshot/quill-markdown-delta
-23 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
-23 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
-23 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
-23 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
-23 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
-23 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
-23 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
-23 silly fetchPackageMetaData     at emitOne (events.js:121:20)
-23 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
-23 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
-23 silly fetchPackageMetaData  error for @disyakidneyshot/quill-markdown-delta { Error: Not found : @disyakidneyshot/quill-markdown-delta
-23 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
-23 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
-23 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
-23 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
-23 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
-23 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
-23 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
-23 silly fetchPackageMetaData     at emitOne (events.js:121:20)
-23 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
-23 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
-23 silly fetchPackageMetaData   pkgid: '@disyakidneyshot/quill-markdown-delta',
-23 silly fetchPackageMetaData   statusCode: 404,
-23 silly fetchPackageMetaData   code: 'E404' }
-24 silly rollbackFailedOptional Starting
-25 silly rollbackFailedOptional Finishing
-26 silly runTopLevelLifecycles Starting
-27 silly runTopLevelLifecycles Finishing
-28 silly install printInstalled
-29 verbose stack Error: Not found : @disyakidneyshot/quill-markdown-delta
-29 verbose stack     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
-29 verbose stack     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
-29 verbose stack     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
-29 verbose stack     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
-29 verbose stack     at emitTwo (events.js:126:13)
-29 verbose stack     at Request.emit (events.js:214:7)
-29 verbose stack     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
-29 verbose stack     at emitOne (events.js:121:20)
-29 verbose stack     at Request.emit (events.js:211:7)
-29 verbose stack     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
-30 verbose statusCode 404
-31 verbose pkgid @disyakidneyshot/quill-markdown-delta
-32 verbose cwd /home/disyakidneyshot/Рабочий стол/quill-delta-markdown
-33 error Linux 4.15.0-34-generic
-34 error argv "/usr/bin/node" "/usr/bin/npm" "install" "--save" "@disyakidneyshot/quill-markdown-delta"
-35 error node v8.10.0
-36 error npm  v3.5.2
-37 error code E404
-38 error 404 Not found : @disyakidneyshot/quill-markdown-delta
-39 error 404
-40 error 404 '@disyakidneyshot/quill-markdown-delta' is not in the npm registry.
-41 error 404 You should bug the author to publish it (or use the name yourself!)
-42 error 404 Note that you can also install from a
-43 error 404 tarball, folder, http url, or git url.
-44 verbose exit [ 1, true ]
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/home/disyakidneyshot/Рабочий стол/quill-delta-markdown',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home/disyakidneyshot/.npm/@disyakidneyshot/quill-delta-markdown/0.0.1/package.tgz not in flight; packing
+9 info lifecycle @disyakidneyshot/quill-delta-markdown@0.0.1~prepublish: @disyakidneyshot/quill-delta-markdown@0.0.1
+10 silly lifecycle @disyakidneyshot/quill-delta-markdown@0.0.1~prepublish: no script for prepublish, continuing
+11 verbose tar pack [ '/home/disyakidneyshot/.npm/@disyakidneyshot/quill-delta-markdown/0.0.1/package.tgz',
+11 verbose tar pack   '/home/disyakidneyshot/Рабочий стол/quill-delta-markdown' ]
+12 verbose tarball /home/disyakidneyshot/.npm/@disyakidneyshot/quill-delta-markdown/0.0.1/package.tgz
+13 verbose folder /home/disyakidneyshot/Рабочий стол/quill-delta-markdown
+14 verbose addLocalTarball adding from inside cache /home/disyakidneyshot/.npm/@disyakidneyshot/quill-delta-markdown/0.0.1/package.tgz
+15 silly cache afterAdd @disyakidneyshot/quill-delta-markdown@0.0.1
+16 verbose afterAdd /home/disyakidneyshot/.npm/@disyakidneyshot/quill-delta-markdown/0.0.1/package/package.json not in flight; writing
+17 verbose afterAdd /home/disyakidneyshot/.npm/@disyakidneyshot/quill-delta-markdown/0.0.1/package/package.json written
+18 silly publish { _inCache: true,
+18 silly publish   _installable: true,
+18 silly publish   repository:
+18 silly publish    { type: 'git',
+18 silly publish      url: 'git+https://github.com/disyakidneyshot/quill-delta-markdown.git' },
+18 silly publish   dependencies:
+18 silly publish    { commonmark: '^0.26.0',
+18 silly publish      lodash: '^4.16.4',
+18 silly publish      'quill-delta': '^3.4.0' },
+18 silly publish   description: 'To and from Markdown and Quill delta',
+18 silly publish   devDependencies:
+18 silly publish    { eslint: '3.8.1',
+18 silly publish      'eslint-plugin-node': '2.1.3',
+18 silly publish      jest: '^21.0.1',
+18 silly publish      prettier: '^1.5.2' },
+18 silly publish   directories: {},
+18 silly publish   keywords: [ 'delta', 'markdown', 'quill' ],
+18 silly publish   license: 'ISC',
+18 silly publish   main: 'index.js',
+18 silly publish   name: '@disyakidneyshot/quill-delta-markdown',
+18 silly publish   optionalDependencies: {},
+18 silly publish   public: true,
+18 silly publish   readme: 'ERROR: No README data found!',
+18 silly publish   scripts:
+18 silly publish    { pretty: 'find ./**/*.js | xargs prettier --write --no-semi --print-width 80 --single-quote --trailing-comma es5',
+18 silly publish      test: 'jest',
+18 silly publish      'test:watch': 'mocha "tests/**/*.spec.js" --reporter progress --watch' },
+18 silly publish   version: '0.0.1',
+18 silly publish   gitHead: 'b2fa7ba61e6c6b548fc257bcc9c06b2aedc99e24',
+18 silly publish   bugs:
+18 silly publish    { url: 'https://github.com/disyakidneyshot/quill-delta-markdown/issues' },
+18 silly publish   homepage: 'https://github.com/disyakidneyshot/quill-delta-markdown#readme',
+18 silly publish   _id: '@disyakidneyshot/quill-delta-markdown@0.0.1',
+18 silly publish   _shasum: '9ab532703c8d0c282b9160dbcf31f47d954e0425',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 silly mapToRegistry name @disyakidneyshot/quill-delta-markdown
+21 silly mapToRegistry scope (from package name) @disyakidneyshot
+22 verbose mapToRegistry no registry URL found in name for scope @disyakidneyshot
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/@disyakidneyshot%2fquill-delta-markdown
+26 verbose publish registryBase https://registry.npmjs.org/
+27 silly publish uploading /home/disyakidneyshot/.npm/@disyakidneyshot/quill-delta-markdown/0.0.1/package.tgz
+28 verbose request uri https://registry.npmjs.org/@disyakidneyshot%2fquill-delta-markdown
+29 verbose request sending authorization for write operation
+30 info attempt registry request try #1 at 15:14:52
+31 verbose request using bearer token for auth
+32 verbose request id 46def7f51f772fb6
+33 http request PUT https://registry.npmjs.org/@disyakidneyshot%2fquill-delta-markdown
+34 http 402 https://registry.npmjs.org/@disyakidneyshot%2fquill-delta-markdown
+35 verbose headers { date: 'Thu, 13 Sep 2018 10:14:54 GMT',
+35 verbose headers   'content-type': 'application/json',
+35 verbose headers   'content-length': '49',
+35 verbose headers   connection: 'keep-alive',
+35 verbose headers   'set-cookie':
+35 verbose headers    [ '__cfduid=d39a06c5ffae7420eee0d981640e0b5871536833693; expires=Fri, 13-Sep-19 10:14:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+35 verbose headers   'cf-ray': '4599d9754fdd4ecc-DME',
+35 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+35 verbose headers   vary: 'Accept-Encoding',
+35 verbose headers   server: 'cloudflare' }
+36 verbose request invalidating /home/disyakidneyshot/.npm/registry.npmjs.org/_40disyakidneyshot_252fquill-delta-markdown on PUT
+37 error publish Failed PUT 402
+38 verbose stack Error: You must sign up for private packages : @disyakidneyshot/quill-delta-markdown
+38 verbose stack     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+38 verbose stack     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+38 verbose stack     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+38 verbose stack     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+38 verbose stack     at emitTwo (events.js:126:13)
+38 verbose stack     at Request.emit (events.js:214:7)
+38 verbose stack     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+38 verbose stack     at emitOne (events.js:121:20)
+38 verbose stack     at Request.emit (events.js:211:7)
+38 verbose stack     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+39 verbose statusCode 402
+40 verbose pkgid @disyakidneyshot/quill-delta-markdown
+41 verbose cwd /home/disyakidneyshot/Рабочий стол/quill-delta-markdown
+42 error Linux 4.15.0-34-generic
+43 error argv "/usr/bin/node" "/usr/bin/npm" "publish"
+44 error node v8.10.0
+45 error npm  v3.5.2
+46 error code E402
+47 error You must sign up for private packages : @disyakidneyshot/quill-delta-markdown
+48 error If you need help, you may report this error at:
+48 error     <https://github.com/npm/npm/issues>
+49 verbose exit [ 1, true ]
