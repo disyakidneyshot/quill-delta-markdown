@@ -1,7 +1,7 @@
 ## Installation
 
 ```
-npm install --save @disyakidneyshot/quill-markdown-delta
+npm install --save delta-markdown-for-quill
 ```
 
 ## Usage
